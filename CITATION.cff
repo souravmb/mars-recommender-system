@@ -1,0 +1,62 @@
+cff-version: 1.2.0
+message: "If you use this code or report in your research, please cite it as below."
+
+title: "Recommender Systems on the MARS E-Learning Dataset: Collaborative Filtering, Content-Based Filtering, and Matrix Factorisation via SVD"
+
+authors:
+  - family-names: "M B"
+    given-names: "Sourav"
+    affiliation: "Department of Mathematics, School of Physical Sciences, Amrita Vishwa Vidyapeetham, Coimbatore"
+    orcid: ""
+
+  - family-names: "Ramakrishnan"
+    given-names: "Kashyap"
+    affiliation: "Department of Mathematics, School of Physical Sciences, Amrita Vishwa Vidyapeetham, Coimbatore"
+    orcid: ""
+
+date-released: 2025-01-01
+version: "1.0.0"
+license: MIT
+
+repository-code: "https://github.com/souravmb/mars-recommender-system"
+
+keywords:
+  - recommender systems
+  - collaborative filtering
+  - content-based filtering
+  - matrix factorisation
+  - singular value decomposition
+  - SVD
+  - e-learning
+  - MARS dataset
+  - cosine similarity
+  - Pearson similarity
+  - TF-IDF
+  - data mining
+
+abstract: >
+  A complete implementation and evaluation of four recommendation approaches
+  on the MARS French e-learning dataset: user-based collaborative filtering
+  with cosine and Pearson similarity, item-based content-based filtering via
+  TF-IDF, and mean-centred Truncated SVD matrix factorisation. Key findings
+  include that Pearson similarity outperforms cosine for this dataset due to
+  rating-scale bias from the watch-percentage derivation mechanism, and that
+  mean-centred SVD (k=20) achieves RMSE 2.2678, Precision@5 0.0708, and
+  Recall@5 0.0179 on the test set.
+
+references:
+  - type: data
+    title: "MARS: Mandarine Academy Recommender System Dataset"
+    authors:
+      - family-names: "Farah"
+        given-names: "Maya"
+      - family-names: "Hobeika"
+        given-names: "Anthony"
+      - family-names: "Issa"
+        given-names: "Joanna"
+    year: 2022
+    publisher:
+      name: "Harvard Dataverse"
+    doi: "10.7910/DVN/BMY3UD"
+    url: "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BMY3UD"
+    license: "CC BY 4.0"
