@@ -1,0 +1,57 @@
+# ── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# ── Virtual environments ─────────────────────────────────────────────────────
+.env
+.venv
+env/
+venv/
+ENV/
+
+# ── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Data files (download from Harvard Dataverse) ─────────────────────────────
+data/
+*.csv
+*.tab
+*.tsv
+
+# ── Generated plot outputs ────────────────────────────────────────────────────
+*.png
+*.jpg
+*.jpeg
+*.pdf
+# Uncomment the line below if you also want to exclude the report PDF:
+# report/
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Windows ───────────────────────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ── IDE / Editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Miscellaneous ─────────────────────────────────────────────────────────────
+*.log
+*.tmp
+.cache/
