@@ -248,7 +248,7 @@ See [`requirements.txt`](requirements.txt) for the full pinned list. Core depend
   </tr>
 </table>
 
-*Under the guidance of **Dr. P.N. Kumar**, Faculty, Department of Mathematics, School of Physical Sciences, Amrita Vishwa Vidyapeetham, Coimbatore.*  
+*Under the guidance of **Dr. P.N. Kumar**, Faculty, Department of Computer Science, School of Engineering, Amrita Vishwa Vidyapeetham, Coimbatore.*  
 *Course: Data Mining (24ASD513), Semester 2.*
 
 ---
